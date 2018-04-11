@@ -1,8 +1,10 @@
 package com.javafundamental.pattern.factory;
 
-public abstract class FactoryExample {
+public abstract class Computer {
     public abstract String getRAM();
+
     public abstract String getHDD();
+
     public abstract String getCPU();
 
     @Override
